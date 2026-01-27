@@ -43,5 +43,24 @@ footer {
 }
 
 @media (max-width: 681px){
-
+ .logo{
+    width: 100px;
+  }
+  h1{
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+    clear: both;
+  }
+  .tile-image{
+    object-fit: cover;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .left{
+    margin-bottom: 30px;
+  }
 }
